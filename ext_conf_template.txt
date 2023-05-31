@@ -10,19 +10,19 @@
 # customsubcategory=160=Site configuration
 
 # cat=Basic/100/10_ModelPid; type=string; label=Models PID: Models page uid used to generate the new site (comma separated for multiple models)
-modelsPid =
+modelsPid = 51
 
 # cat=Basic/100/20_SitesPid; type=string; label=Sites PID: Pages uid where sites can be created (comma separated)
-sitesPid =
+sitesPid = 75
 
 # cat=Basic/110/10_MountPoint; type=int; label=Mount point UID: This is the uid of the common mount point for all sites
-commonMountPointUid =
+commonMountPointUid = 1
 
 # cat=Basic/120/10_OneForm; type=boolean; label=Only one form page for data: Check this if you want only one form page to gather data
-onlyOneFormPage = false
+onlyOneFormPage = true
 
 # cat=Label/130/10_PageTitle; type=string; label=Home page title: The title used for the home page (can be overridden in form)
-homePageTitle = Home
+homePageTitle = Neues Lernmodul
 
 # cat=Label/130/20_GroupPrefix; type=string; label=Group prefix: The prefix used for group name (can be overridden in form)
 groupPrefix = Group
@@ -49,22 +49,22 @@ explicitAllowdeny = tt_content:CType:media:ALLOW,tt_content:CType:textteaser:ALL
 siteIdentifierPrefix = siteGenerator-
 
 # cat=Site_configuration/160/20_LangTitle; type=string; label=Language title: The language title (ex : English)
-langTitle = English
+langTitle = German
 
 # cat=Site_configuration/160/30_Locale; type=string; label=Locale: Used for localized date and currency formats. E.g. "de_DE" or "en_US.UTF-8".
-locale = en_US.UTF-8
+locale = de_DE
 
 # cat=Site_configuration/160/40_Iso-639-1; type=string; label=ISO 639-1 code of the Language: Two letters of iso code language
-iso-639-1 = en
+iso-639-1 = de
 
 # cat=Site_configuration/160/50_navigationTitle; type=string; label=Navigation Title: Used within language-related menu
-navigationTitle = English
+navigationTitle = German
 
 # cat=Site_configuration/160/60_hreflang; type=string; label=Language Tag defined by RFC 1766 / 3066: Used within for "lang" and "hreflang" attributes
-hreflang = en-US
+hreflang = de-DE
 
 # cat=Site_configuration/160/70_direction; type=string; label=Direction: Language direction for "dir" attribute
 direction = ltr
 
 # cat=Site_configuration/160/80_flag; type=string; label=Flag icon: Two letters for flag icon
-flag = en-us-gb
+flag = de

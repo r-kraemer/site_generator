@@ -15,7 +15,7 @@ module.tx_sitegenerator {
                 # cat=Site Generator/110/10_PidFeGroup; type=int; label=Pid FE group: Page Id for FE group creation - should be a folder - if set to 0, no FE group will be created
                 pidFeGroup = 0
                 # cat=Site Generator/110/20_StorageUid; type=int; label=StorageUid: Storage uid used for folder creation (0 = no folder creation)
-                storageUid = 1
+                storageUid = 0
                 # cat=Site Generator/120/20_hideHomePage; type=boolean; label=Hide home page: Set this to '1' if you want to set home page as hidden
                 hideHomePage = 0
             }

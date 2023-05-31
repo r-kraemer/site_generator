@@ -4,7 +4,8 @@
 		<header/>
 		<body>
 			<trans-unit id="itemProvider.siteGenerator" xml:pace="preserve">
-				<source>Site generator / tree model duplicator</source>
+				<!--<source>Site generator / tree model duplicator</source>-->
+				<source>Neues Lernmodul erstellen</source>
 			</trans-unit>
             <trans-unit id="alert">
 				<source>Alert</source>

@@ -4,24 +4,24 @@
 		<header/>
 		<body>
 			<trans-unit id="title_generator">
-				<source>New site generation / Tree model duplicator</source>
+				<source>Neues Lernmodul aus Template erstellen</source>
 			</trans-unit>
 
             <trans-unit id="form.previousStep">
-				<source>Previous step</source>
+				<source>Zurück</source>
 			</trans-unit>
             <trans-unit id="form.nexStep">
-				<source>Next step</source>
+				<source>Lernmodul erstellen</source>
 			</trans-unit>
 
             <trans-unit id="form.FirstStepData.title">
-				<source>Mandatory informations</source>
+				<source>Einstellungen</source>
 			</trans-unit>
             <trans-unit id="form.FirstStepData.siteTitle">
-				<source>Site title (root page title)</source>
+				<source>Titel des neuen Lernmoduls</source>
 			</trans-unit>
             <trans-unit id="form.FirstStepData.selectModel">
-				<source>Select model</source>
+				<source>Template auswählen</source>
 			</trans-unit>
             <trans-unit id="form.SecondStepData.domain">
 				<source>Domain name (https://www.example.com/) - leave empty to ignore</source>
@@ -86,12 +86,9 @@
             <trans-unit id="generate.success.createFileMount">
 				<source>- A new file mount has been set : %s (uid = %d)</source>
 			</trans-unit>
-			<trans-unit id="generate.success.templateHpUpdated">
-				<source>- Update home page template with new uids done</source>
-			</trans-unit>
 
             <trans-unit id="generate.success">
-				<source>The new site creation/tree model duplication was finished.</source>
+				<source>Das neue Lernmodul wurde erstellt.</source>
 			</trans-unit>
 
             <trans-unit id="wizard.firstPage.error">
